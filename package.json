@@ -1,0 +1,21 @@
+{
+  "name": "test-play",
+  "version": "1.0.0",
+  "author": "Matthew W Jackson <mwj8410@gmail.com>",
+  "description": "A PoC for testing patterns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests",
+    "test:smoke": "mocha ./tests --grep @smoke"
+  },
+  "keywords": [
+    "poc",
+    "test"
+  ],
+
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
