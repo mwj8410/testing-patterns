@@ -2,7 +2,7 @@
 
 const {expect} = require('chai')
 
-describe('First Module', () => {
+describe('e2e: Second Module', () => {
 
   describe('Top Section', () => {
     it('does a critical thing. @critical @smoke', () => {
